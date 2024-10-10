@@ -1,0 +1,46 @@
+.min-box-3{
+    padding: 4rem;
+    margin: 2rem;
+    border: 2px solid blueviolet;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    
+}
+
+/* .tasks, .done-tasks {
+    width: 50%;
+} */
+
+.Basic14   button{
+    min-width: 80px;
+    /* font-size: large; */
+    /* font-weight: 400; */
+    padding: .5rem;
+    outline: 1.5px solid blueviolet;
+    /* border: 1px white; */
+    margin: .1rem;
+    border-radius: .5rem;
+  }
+
+
+.tasks {
+    flex: 1; /* Take up available space */
+    padding-right: 20px; /* Spacing between sections */
+    border-right: 2px solid #000; /* Vertical line on the right */
+}
+
+.done-tasks {
+    flex: 1; /* Take up available space */
+    padding-left: 3rem; /* Spacing between sections */
+}
+
+.list, .box {
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-wrap: wrap;
+    overflow-wrap: anywhere;
+}

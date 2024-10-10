@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-wrap: wrap;
 }
 body {
     background-color: bisque;
@@ -36,7 +37,11 @@ body {
     min-height: 150px;
     text-align: center;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     border-bottom: 2px solid rebeccapurple;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
   }
   .code-no{
     text-align: start;
@@ -61,4 +66,44 @@ body {
     border-radius: 1rem;
   
   }
-  
+  .min-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* display: inline-block; */
+    border: 1px solid blue;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: .5rem;
+  }
+  .min-box-2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* display: inline-block; */
+    border: 1px solid blue;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: .5rem;
+  }
+  input{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin: .5rem;
+    border-radius: .5rem;
+  }
+  .Basic14 input{
+    min-width: 200px;
+  }
+  .t2{
+    width: 200px;
+    text-wrap: wrap;
+    font-size: larger;
+  }
